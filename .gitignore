@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# FAISS / Vector DB
+vectorstore/
+*.faiss
+*.pkl
+
+# Transformers cache
+.cache/
+huggingface/
+
+# macOS
+.DS_Store
