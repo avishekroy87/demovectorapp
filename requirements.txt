@@ -1,0 +1,21 @@
+# FastAPI framework
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# LangChain core
+langchain==0.1.20
+langchain-community==0.0.38
+
+# Ollama integration (handled inside langchain-community)
+ollama==0.1.9
+
+# Vector database
+faiss-cpu==1.13.2
+
+# Embeddings
+sentence-transformers==2.6.1
+transformers==4.39.3
+torch>=2.2.0
+
+# Data validation
+pydantic==2.10
