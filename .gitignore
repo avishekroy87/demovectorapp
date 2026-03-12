@@ -13,4 +13,4 @@ vectorstore/
 huggingface/
 
 # macOS
-.DS_Store
+.DS_Storevenv/
