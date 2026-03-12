@@ -30,7 +30,6 @@ embedding_model = HuggingFaceEmbeddings(
 )
 
 
-
 documents = [
     Document(page_content="AWS Lambda supports timeouts up to 15 minutes."),
     Document(page_content="S3 provides durable object storage."),
@@ -64,6 +63,7 @@ class QueryRequest(BaseModel):
 @app.get("/")
 def health_check():
     return {"status": "AI backend running"}
+
 
 @app.post("/ask")
 def ask_question(request: QueryRequest):
